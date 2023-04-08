@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
+      - using: 'node16'
       - name: Set up Python version
         uses: actions/setup-python@v1
         with:
